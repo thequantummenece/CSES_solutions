@@ -16,6 +16,7 @@ int main(){
         if(temp<=max_till){ans = ans + (max_till-temp);}
         else{max_till = temp;}
     } 
+    
     cout<<ans;    
     return 0;
 }
